@@ -1,4 +1,5 @@
-.content {
-    grid-area: c;
-    background-color: blue;
-  }
+
+.profile_img {
+  width: 100%;
+  height: 150px;
+}

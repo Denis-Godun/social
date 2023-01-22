@@ -6,14 +6,14 @@ const Profile = () => {
   return (
     <div className={s.content}>
       <div>
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-fff2lftqIE077pFAKU1Mhbcj8YFvBbMvpA&usqp=CAU"
+        <img className={s.profile_img}
+          src="http://cameralabs.org/media/camera/may/23may2/33_4caaf6d27a395dc6b511eb570f701c60.jpg"
           alt=""
         />
       </div>
       <div className="">
         <img
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Circle-icons-image.svg/800px-Circle-icons-image.svg.png"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Circle-icons-image.svg/55px-Circle-icons-image.svg.png"
           alt="ava"
         />{" "}
         description
