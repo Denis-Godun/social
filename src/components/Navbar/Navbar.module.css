@@ -1,12 +1,27 @@
 .nav {
-    grid-area: n;
-    background-color: greenyellow;
-    padding: 20px;
-  }
-  .item a{
+  grid-area: n;
+  background-color: #cc99fe;
+  padding: 20px;
+  border-radius: 15px;
+  height: 150px;
+}
+.item{
+  padding: 5px;
+ 
+}
+.item a {
+  padding: 10px;
+  border-radius: 15px;
   color: white;
   text-decoration: none;
-  }
-  .item a.active{
-    color:blueviolet
-  }
+}
+.item a.active {
+  color: blueviolet;
+}
+.item a:hover {
+  background-color: #8B00FF;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 1.5s;
+}
