@@ -11,7 +11,11 @@
   width: 1200px;
 }
 
+#root{
+  background-color: #e1d8fc;
+}
+
 .app-wrapper-content {
   grid-area: c;
-    background-color: blue;
+    
 }

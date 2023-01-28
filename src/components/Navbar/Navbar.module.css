@@ -12,11 +12,11 @@
 .item a {
   padding: 10px;
   border-radius: 15px;
-  color: white;
+  color: black;
   text-decoration: none;
 }
 .item a.active {
-  color: blueviolet;
+  color: white;
 }
 .item a:hover {
   background-color: #8B00FF;
